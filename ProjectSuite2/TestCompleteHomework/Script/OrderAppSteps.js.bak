@@ -1,0 +1,10 @@
+﻿function openApp(){
+  TestedApps.Orders.Run().MainForm;
+
+}
+function closeApp(){
+  TestedApps.Orders.Terminate();
+}
+
+module.exports.openApp = openApp;
+module.exports.closeApp = closeApp;
